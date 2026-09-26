@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#### Project Name
+FITLOG (Workout Library & Gym Companion)
 
-## Getting Started
+#### Short Description
+FitLog is a dark-themed, modern fitness and workout tracking web application. It allows users to browse various gym exercises, view target muscle groups, estimated calorie burn, and duration, enabling them to build, plan, and save their daily workout routines efficiently.
 
-First, run the development server:
+#### Technologies Used
+Framework: Next.js (React Framework)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Styling & UI: Tailwind CSS (Modern Dark UI Design)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Icons & Fonts: Custom Web Fonts (WOFF2) & SVG Icons
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Hosting Platform: Netlify
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+#### Key Features of the Project
+Comprehensive Workout Library:
+Organized collection of exercises categorized by major muscle groups, including Chest, Back, Legs, Core, Shoulders, and Full Body.
 
-## Learn More
+Workout Metrics & Calorie Tracking:
+Detailed breakdown for each exercise displaying estimated time duration (in minutes), expected calories burned (kcal), and rating scores.
 
-To learn more about Next.js, take a look at the following resources:
+Interactive Plan & Save Manager:
+Ability for users to select exercises and organize them directly into their personal "Plan" or "Saved" workouts list.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dynamic Detail Pages & Equipment Guides:
+Individual detail pages for each workout specifying the required gym equipment (e.g., Barbell, Dumbbells, Bodyweight, Cable).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Responsive Dark-Themed UI:
+A fully responsive dark-mode layout optimized for smooth performance and seamless navigation across mobile, tablet, and desktop devices.
